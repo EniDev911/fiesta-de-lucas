@@ -1,0 +1,17 @@
+/*https://www.youtube.com/watch?v=z9KzNTcPaOY*/
+body {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #00bbf9;
+}
+
+.birthdayCard {
+	position: relative;
+	width: 250px;
+	height: 350px;
+	transform-style: preserve-3d;
+	transform: perspective(2500px);
+	transition: .4s;
+}
