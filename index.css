@@ -2,6 +2,13 @@
 * {
 	user-select: none;
 }
+@font-face {
+  font-family: 'brush'; /* Nombre que usarás en tu CSS */
+  src: url('brush.TTF') format('truetype'); /* Ruta al archivo .ttf */
+  font-weight: normal; /* Opcional: define el peso de la fuente */
+  font-style: normal;  /* Opcional: define el estilo de la fuente */
+}
+
 body {
 	display:flex;
 	align-items: center;
@@ -234,7 +241,7 @@ body {
 }
 
 p {
-	font-family: 'Brush Script MT', cursive;
+	font-family: 'brush', cursive;
 	color: #333;
 }
 
